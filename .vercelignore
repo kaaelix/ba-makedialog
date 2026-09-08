@@ -1,0 +1,5 @@
+upstream-ba-tools
+.git
+.agents
+*.log
+.next

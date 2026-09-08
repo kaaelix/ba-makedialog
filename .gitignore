@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.env
+.env.local
+upstream-ba-tools
+*.log
+.vercel
+.env*
+*.tsbuildinfo
+scenario-image-generator-api-prompt.txt
