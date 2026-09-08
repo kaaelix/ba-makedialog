@@ -2,14 +2,6 @@
 
 An open-source, deterministic Blue Archive scenario image generator and dialogue animation engine. Create authentic in-game dialogue stills (PNG) and fast animated sequences (GIF) through an interactive visual canvas or direct HTTP API.
 
-## Features
-
-- **Accurate In-Game Typography**: Authentic dialogue box gradient, 1548px divider line, 41pt typography, `#182c40` outline stroke, character anchors, and pulsing prompt triangle.
-- **Action & Monologue Formatting**: Automatic styling for `*...*` and `**...**` action chunks in muted grey (`#94a3b8`) with italic emphasis, returning cleanly to crisp white text once closed.
-- **Fast 30 FPS GIF Pipeline**: Optimized frame delay and reading hold duration for instant sharing across Discord, OpenRP, and web apps.
-- **Direct REST API**: Synchronous endpoints (`/api/scenario/generate`, `/api/scenario/animate`) for PNG stills and animated GIFs with direct Markdown image output (`![](...)`).
-- **Complete Student & Background Roster**: Comprehensive asset registry with high-resolution sprites and authentic backgrounds.
-
 ## API Quick Reference
 
 ### Generate Still Image (PNG)
