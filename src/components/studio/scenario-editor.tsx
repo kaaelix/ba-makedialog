@@ -1123,39 +1123,6 @@ export function ScenarioEditor() {
                   />
                 </button>
               </div>
-
-              {/* Force Dim & Step Back Toggle */}
-              <div className="pt-2.5 mt-2.5 border-t border-slate-200 dark:border-zinc-800 flex items-center justify-between gap-3 min-h-[44px]">
-                <div>
-                  <span id="label-char-darken" className="text-xs font-semibold text-slate-800 dark:text-zinc-200 block">
-                    Dim &amp; Step Back (Abu-abu &amp; Mundur)
-                  </span>
-                  <span className="text-[11px] text-slate-500 dark:text-slate-400 block">
-                    Shade character grey-ish &amp; 0.93x scale as non-speaking listener
-                  </span>
-                </div>
-                <button
-                  type="button"
-                  role="switch"
-                  id="switch-char-darken"
-                  aria-checked={!!activeCharacter.darken}
-                  aria-labelledby="label-char-darken"
-                  onClick={() => {
-                    handleCharacterTransform({ darken: !activeCharacter.darken });
-                  }}
-                  className={`w-12 h-7 rounded-full transition-colors relative p-0.5 min-w-[48px] ${
-                    activeCharacter.darken
-                      ? "bg-ba-accent"
-                      : "bg-slate-200 dark:bg-zinc-800 border border-slate-300 dark:border-zinc-700"
-                  }`}
-                >
-                  <span
-                    className={`w-6 h-6 rounded-full bg-white shadow-sm transition-transform block ${
-                      activeCharacter.darken ? "translate-x-5" : "translate-x-0"
-                    }`}
-                  />
-                </button>
-              </div>
             </div>
 
             {/* Student Roster Browser */}
