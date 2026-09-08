@@ -1,4 +1,4 @@
-# Blue Archive Scenario Studio & Generator API :3
+# Blue Archive Scenario Studio & Generator API 
 
 An open-source, deterministic Blue Archive scenario image generator and dialogue animation engine. Create authentic in-game dialogue stills (PNG) and fast animated sequences (GIF) through an interactive visual canvas or direct HTTP API.
 
